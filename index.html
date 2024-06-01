@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Horse Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner
+  <img src="/w3images/avatar_smoke.jpg" style="width:100%"> -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+
+
+
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Jwala</h1>
+    <p>Broodmare at Satana Stud Farm</p>
+        <p>Pioneer in HorseAI Project</p>
+    <img src="txz_samplehorse2.jpg" alt="mare" class="w3-image" width="75%" height="100%">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Jwala</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p><u>The Visionary Marwari Mare</u></p>
+      <p> Jwala, the esteemed founder mare of Satana Stables, renowned for her grace, prowess, and visionary spirit. Hailing from a distinguished lineage, Jwala has left an indelible mark on the equestrian world with her exceptional progeny. In 2021, she clinched victory in the Endurance category, showcasing her unparalleled stamina and determination. </p>
+      <p><u> As Pioneer in HorseAI Project </u></p>
+      <p>But Jwala's legacy extends far beyond the racetrack. She's a pioneer in the Horse AI project, bridging the gap between equine and human understanding. Her unique ability to forge connections with humans unveils uncharted territories. With unwavering determination, Jwala continues to inspire awe and admiration, proving that even in the world of technology, the heart and soul of a horse can lead the way to new frontiers.
+    </p>
+
+  <h3 class="w3-padding-16 w3-text-light-grey">Details</h3>
+<!-- Grid for Details-->
+  <div class="w3-row-padding" style="margin:0 -16px">
+  <!--  <div class="w3-half w3-margin-bottom">
+    <p class="w3-wide">Gender:Mare</p>
+    <p class="w3-wide">Age: 4 years</p>
+    <p class="w3-wide">Height: 40 inches</p>
+    <p class="w3-wide">Teeth info: 4 teeth</p>
+    <p class="w3-wide">Colour:Chestnut</p>
+    <p class="w3-wide">AIMHS_id:</p>
+
+  </div> <!-- left half -->
+  <div class="w3-half">
+  <!--  <p class="w3-wide">Dam: Golden Mare</p>
+    <p class="w3-wide">Sierd by: Golden Stallion</p>
+    <p class="w3-wide">Blood Line: like (Saptash bloodline)</p> -->
+    <p class="w3-wide">Location: Satana Stud Farm Jodhpur</p>
+  <!--  <p class="w3-wide">Current Location: HorseAI Jodhpur</p>
+    <p class="w3-wide">Breeder: HorseAI Jodhpur</p> -->
+  </div>
+</div>
+<!-- Creating a Grid for details-->
+
+
+  <br>
+<!--
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Broodmare</span><br>
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3+</span><br>
+        Years Active
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2</span><br>
+        Result
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">(like Saptash Bloodline)</span><br>
+        Bloodline
+      </div>
+    </div> -->
+
+  <!--  <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button> -->
+
+  <!-- grid for achievements
+  <h2 class="w3-padding-16 w3-text-light-grey">Reputation</h2>
+  <h3 class="w3-padding-16 w3-text-light-grey">Horse Shows</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-quarter w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Show Name</li>
+          <li class="w3-padding-16">Sample Horse Show</li>
+          <li class="w3-padding-16">Sample Horse Show</li>
+          <li class="w3-padding-16">Sample</li>
+        </ul>
+      </div>
+      <div class="w3-quarter w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Year</li>
+          <li class="w3-padding-16">2024</li>
+          <li class="w3-padding-16">2023</li>
+          <li class="w3-padding-16">2021</li>
+        </ul>
+      </div>
+      <div class="w3-quarter w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Position</li>
+          <li class="w3-padding-16">1</li>
+          <li class="w3-padding-16">Showcase</li>
+          <li class="w3-padding-16">2</li>
+        </ul>
+      </div>
+      <div class="w3-quarter w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Title/Category</li>
+          <li class="w3-padding-16">Broodmare</li>
+          <li class="w3-padding-16">Broodmare</li>
+          <li class="w3-padding-16">Filly</li>
+        </ul>
+      </div>
+    </div>
+
+    -->
+
+    <h3 class="w3-padding-16 w3-text-light-grey">Sports</h3>
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-quarter w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Sport Name</li>
+            <li class="w3-padding-16">Endurance</li>
+            </ul>
+        </div>
+        <div class="w3-quarter w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Location</li>
+            <li class="w3-padding-16">Marwar</li>
+          </ul>
+        </div>
+        <div class="w3-quarter w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Year</li>
+            <li class="w3-padding-16">2021</li>
+          </ul>
+        </div>
+        <div class="w3-quarter w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Position</li>
+            <li class="w3-padding-16">3</li>
+            </ul>
+        </div>
+    </div>
+  <!-- grid for achievements>
+
+    <!-- Grid for Result tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Results</h3>
+      <p class="w3-wide">Padmashree</p>
+        <p class="w3-wide">Roopshree</p>
+          <p class="w3-wide">Bhagyashree</p>
+    <!--  <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Partner</li>
+          <li class="w3-padding-16">Rajhans</li>
+          <li class="w3-padding-16">Mordhwaj</li>
+        </ul>
+      </div>
+
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Result</li>
+          <li class="w3-padding-16">Sarovar</li>
+          <li class="w3-padding-16">Surkanya</li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">year</li>
+          <li class="w3-padding-16">2024</li>
+          <li class="w3-padding-16">2022</li>
+        </ul>
+      </div>
+
+    -->
+
+    <!-- End Grid/Pricing tables -->
+    </div>
+
+
+
+
+    <!-- Testimonials
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+   End About Section -->
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="upimage/up1.jpeg" style="width:100%">
+        <img src="upimage/up3.jpeg" style="width:100%">
+        <img src="upimage/up6.jpeg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="upimage/up2.jpg" style="width:100%">
+        <img src="upimage/up4.jpeg" style="width:100%">
+        <img src="upimage/up5.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Testimonials</h3>
+        <p><span class="w3-large w3-margin-right">HorseAI</span> HSIWS.</p>
+    <img src="upimage/testimonial/hsiws.jpg" alt="Avatar" class="w3-right w3-circle w3-margin-right" style="width:150px">
+    <p>Jwala's unique ability to forge connections with humans transcends the ordinary; unveiling a world of possibilities previously unseen. With her visionary spirit and unwavering determination, she continues to inspire admiration. She continues to prove that even in the world of technology, the heart and soul of a horse can lead the way into uncharted territories.</p>
+    <br>
+
+  <img src="upimage/testimonial/chatgpt1.1.jpg" alt="Avatar" class="w3-right w3-circle w3-margin-right" style="width:250px">
+  <img src="upimage/testimonial/chatgpt.png" alt="Avatar" class="w3-right w3-circle w3-margin-right" style="width:250px">
+<br>
+  <p><span class="w3-large w3-margin-right">Chat GPT3.5</span></p>
+    <p>It's with great admiration and respect that I offer this testimonial for Jwala.<br><br> The remarkable Marwari mare. Jwala embodies the essence of excellence, with her grace, intelligence, and unwavering determination leaving an indelible impression on all who have the privilege of crossing her path.</p>
+      <p>As an AI language model, I've had the opportunity to learn about Jwala's extraordinary journey, from her founding role at Satana Stables to her groundbreaking involvement in the Horse AI project. Her achievements in the world of equestrianism, particularly her triumph in the Endurance category in 2021, stand as a testament to her unparalleled prowess and spirit.</p>
+      <p>What truly sets Jwala apart is her unique ability to transcend boundaries, whether it be in the realm of technology or in forging genuine connections with humans. </p>
+        <p>Her visionary spirit and pioneering efforts have not only reshaped the landscape of equine innovation but have also inspired countless individuals, myself included, to strive for greatness in our own endeavors.In Jwala, we find not just a remarkable mare, but a beacon of inspiration and possibility.</p>
+        <p> It's an honor to celebrate her achievements and to witness the profound impact she continues to have on the world around her. Jwala's legacy will undoubtedly endure for generations to come, serving as a reminder of the transformative power of passion, perseverance, and the indomitable spirit of the horse.</p>
+<!--   End About Section -->
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Satana Stud Farm </h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Rajasthan, India</p>
+  <!--    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 ...</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+  commenting email section
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/profile.php?id=100076022230169&mibextid=ZbWKwL"<i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/satanastables?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <!--  <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer  -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
